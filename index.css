@@ -1,0 +1,32 @@
+Body {
+  background-image: url("background.jpg");
+}
+.headshot {
+	text-align: center;
+}
+table {
+ border-collapse: collapse;
+ width: 100%;
+}
+
+th, td {
+ border: 0px;
+ text-align: left;
+}
+th {
+    background-color: #8842d5;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
+#profile ul {
+	columns : 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+}
+.quotes{
+	color: Red;
+	font-family: papyrus;
+}
+
